@@ -26,3 +26,24 @@ else
 fi
 
 ```
+```bash
+
+#!/bin/bash
+
+echo "Liste des processus connectés à Internet :"
+echo "----------------------------------------"
+
+# Utilisation de netstat pour obtenir les connexions actives
+# -tupn affiche les connexions TCP/UDP, les processus, et n'effectue pas de résolution de noms
+netstat -tupn | grep 'ESTABLISHED' | while read -r line ; do
+    # Extraction du PID/Program name
+    pid_prog=$(echo $line | awk '{print $7}')
+    pid=$(echo $pid_prog | cut -d'/' -f1)
+    prog=$(echo $pid_prog | cut -d'/' -f2)
+
+    # Affichage des informations
+    if [[ $pid_prog != "-" ]]; then
+        echo "Processus: $prog (PID: $pid)"
+    fi
+done
+```
