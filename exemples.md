@@ -26,8 +26,8 @@ else
 fi
 
 ```
-```bash
 
+```bash
 #!/bin/bash
 
 echo "Liste des processus connectés à Internet :"
@@ -46,4 +46,39 @@ netstat -tupn | grep 'ESTABLISHED' | while read -r line ; do
         echo "Processus: $prog (PID: $pid)"
     fi
 done
+```
+
+```bash
+#!/bin/bash
+
+# Définir le répertoire de départ pour la recherche
+# Par exemple, pour chercher dans le répertoire courant, utilisez '.'
+# Pour chercher dans tout le système, utilisez '/'
+DIRECTORY='.'
+
+# Afficher les fichiers modifiés dans les dernières 24 heures
+echo "Fichiers modifiés dans les dernières 24 heures dans $DIRECTORY :"
+find "$DIRECTORY" -type f -mtime -1 -print
+```
+
+```bash
+#!/bin/bash
+# URL de l'API web
+API_URL="https://api.exemple.com/data"
+
+# En-têtes optionnels, par exemple : Authorization, Content-Type, etc.
+# Décommentez et modifiez selon vos besoins
+# HEADER="Authorization: Bearer VotreTokenIci"
+
+# Envoi de la requête GET
+# Ajoutez -H "$HEADER" après curl si vous utilisez des en-têtes
+response=$(curl -s -X GET "$API_URL" /* -H "$HEADER" */)
+
+# Affichage de la réponse
+echo "Réponse de l'API :"
+echo "$response"
+
+# Traitement de la réponse JSON (si la réponse est au format JSON)
+# Vous devez avoir 'jq' installé pour traiter le JSON
+# Exemple : echo $response | jq .
 ```
