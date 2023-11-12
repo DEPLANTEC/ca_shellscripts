@@ -31,6 +31,6 @@ Les scripts Bash vous permettent d'automatiser des tâches. Voici un exemple sim
 echo "Hello, world!"
 ```
 
-https://tldp.org/LDP/abs/html/index.html
-https://learn.microsoft.com/fr-fr/training/modules/bash-introduction/
-https://github.com/microsoft/bash-for-beginners
+# https://tldp.org/LDP/abs/html/index.html
+# https://learn.microsoft.com/fr-fr/training/modules/bash-introduction/
+# https://github.com/microsoft/bash-for-beginners
