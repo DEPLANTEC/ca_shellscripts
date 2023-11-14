@@ -1,8 +1,8 @@
 # Welcome in the shell !!
 
-Bienvenue dans le monde fascinant du shell ! Ici, vous pouvez apprendre, explorer et maîtriser l'art de la ligne de commande.
+Bienvenue dans le monde fascinant du shell ! 
 
-## Introduction au Shell
+# Introduction au Shell
 
 Le shell est une interface de ligne de commande (CLI) qui vous permet d'interagir efficacement avec votre système d'exploitation via des commandes textuelles. 
 
