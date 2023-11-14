@@ -1,11 +1,5 @@
 # Welcome in the shell !!
 
-Bienvenue dans le monde fascinant du shell ! 
-
-# Introduction au Shell
-
-Le shell est une interface de ligne de commande (CLI) qui vous permet d'interagir efficacement avec votre système d'exploitation via des commandes textuelles. 
-
 ### Pourquoi Utiliser le Shell ?
 
 - **Puissance et Flexibilité** : Exécutez des tâches complexes en quelques commandes.
@@ -21,16 +15,20 @@ Voici quelques commandes de base pour commencer :
 - `pwd` : Affiche le chemin du répertoire courant.
 - `mkdir` : Crée un nouveau dossier.
 - `touch` : Crée un nouveau fichier vide.
+- `whoami`
+- `id`
+- `ps`
+- `netcat`
 
 ## Scripts Bash
 
-Les scripts Bash vous permettent d'automatiser des tâches. Voici un exemple simple :
+Les scripts Bash vous permettent d'automatiser des tâches :
 
 ```bash
 #!/bin/bash
 echo "Hello, world!"
 ```
 
-# https://tldp.org/LDP/abs/html/index.html
-# https://learn.microsoft.com/fr-fr/training/modules/bash-introduction/
-# https://github.com/microsoft/bash-for-beginners
+### https://tldp.org/LDP/abs/html/index.html
+### https://learn.microsoft.com/fr-fr/training/modules/bash-introduction/
+### https://github.com/microsoft/bash-for-beginners

@@ -1,4 +1,4 @@
-***EXEMPLES
+# EXEMPLES
 
 ```bash
 
