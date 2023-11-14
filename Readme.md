@@ -1,4 +1,4 @@
-# Welcome in the shell !!
+# 🔥 Welcome in the shell !!
 
 ### Pourquoi Utiliser le Shell ?
 
@@ -8,7 +8,7 @@
 
 ## Commandes de Base
 
-Voici quelques commandes de base pour commencer :
+🤖 Voici quelques commandes de base pour commencer :
 
 - `ls` : Liste les fichiers et dossiers.
 - `cd` : Change le répertoire courant.
@@ -22,7 +22,7 @@ Voici quelques commandes de base pour commencer :
 
 ## Scripts Bash
 
-Les scripts Bash vous permettent d'automatiser des tâches :
+⚙️ Les scripts Bash vous permettent d'automatiser des tâches :
 
 ```bash
 #!/bin/bash
